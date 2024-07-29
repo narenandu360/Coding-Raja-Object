@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['bicycle', 'bike', 'car', 'chair', 'dog', 'flag', 'flower', 'human', 'laptop', 'man', 'pen', 'table', 'woman']
+
+roboflow:
+  workspace: coding-raja-tech-object-detection
+  project: coding-raja-tech.-object
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/coding-raja-tech-object-detection/coding-raja-tech.-object/dataset/5
